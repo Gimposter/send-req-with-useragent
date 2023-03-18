@@ -13,5 +13,7 @@ heads2 = [
         'Accept' : '*/*'
     }]
 
+
 req = requests.post('https://github.com',headers=heads2)
+# respose 200 == send ok
 print(req)
